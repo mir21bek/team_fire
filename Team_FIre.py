@@ -122,6 +122,6 @@ to_weird_case('This is a test') # => returns 'ThIs Is A TeSt'''
 # new=[]
 # for i, val in enumerate(s[:]):
 #     up=s[i].upper()
-#     c=s.replace(s[i],up)
+#     c = s[:i] + up + s [i + 1:]
 #     new.append(c)
 # print(new)
